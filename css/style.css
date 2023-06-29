@@ -48,3 +48,14 @@ body{
     font-weight: 400;
     color: #555;
 }
+
+.test {
+    /* width: 1000px; */
+    /* max-width: 1000px; */
+    max-width: 50rem;
+    /* here we have used the max-width because it dynamically adapt the screen size pixel and convert it to the place of the pixel in the web page 
+     */
+     /* rem is the root element font size  */
+    padding: 100px;
+    background-color: red;
+}
