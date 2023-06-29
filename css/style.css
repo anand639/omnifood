@@ -70,3 +70,14 @@ body{
     /* padding: 100px; */
     /* background-color: red; */
 /* } */ 
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* by adding width 100% image is automatically adjust with viewport height and width  */
+
+.hero-img {
+    width: 100%;
+}
