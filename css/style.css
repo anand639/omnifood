@@ -42,6 +42,12 @@ Primary: #67e22
     margin: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-size: 62.5%;
+    /* 10px / 16px = 0.625 = 62.5%  */
+}
+
 body{
     font-family: sans-serif;
     line-height: 1;
@@ -49,13 +55,18 @@ body{
     color: #555;
 }
 
-.test {
+/* .test {
     /* width: 1000px; */
     /* max-width: 1000px; */
-    max-width: 50rem;
+    /* max-width: 50rem; */
+    /* color: white; */
+    /* font-size: 2rem; */
+    /* 1 rem = 16 px
+    50 rem = 50x16 = 80px
+    */
     /* here we have used the max-width because it dynamically adapt the screen size pixel and convert it to the place of the pixel in the web page 
      */
      /* rem is the root element font size  */
-    padding: 100px;
-    background-color: red;
-}
+    /* padding: 100px; */
+    /* background-color: red; */
+/* } */ 
